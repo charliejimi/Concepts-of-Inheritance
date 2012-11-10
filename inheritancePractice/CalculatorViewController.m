@@ -7,6 +7,7 @@
 //
 
 #import "CalculatorViewController.h"
+#import "SubCalculator.h"
 
 @interface CalculatorViewController ()
 
@@ -18,6 +19,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    SubCalculator * aCalculator= [[SubCalculator alloc]init];
+    NSLog(@"%p",aCalculator);
+    
+    [aCalculator pushOperand:1];
+    [aCalculator pushOperand:2];
+    [aCalculator performOperation:@"+"];
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

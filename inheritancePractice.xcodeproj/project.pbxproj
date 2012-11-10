@@ -19,6 +19,7 @@
 		CBD70E49164E2EB40039FA33 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD70E47164E2EB40039FA33 /* MainStoryboard.storyboard */; };
 		CBD70E4C164E2EB40039FA33 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD70E4B164E2EB40039FA33 /* CalculatorViewController.m */; };
 		CBD70E54164E2F000039FA33 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD70E53164E2F000039FA33 /* CalculatorBrain.m */; };
+		CBD70E57164E2FF10039FA33 /* SubCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD70E56164E2FF10039FA33 /* SubCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		CBD70E4B164E2EB40039FA33 /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
 		CBD70E52164E2F000039FA33 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalculatorBrain.h; path = ../CalculatorBrain.h; sourceTree = "<group>"; };
 		CBD70E53164E2F000039FA33 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalculatorBrain.m; path = ../CalculatorBrain.m; sourceTree = "<group>"; };
+		CBD70E55164E2FF10039FA33 /* SubCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCalculator.h; sourceTree = "<group>"; };
+		CBD70E56164E2FF10039FA33 /* SubCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 			children = (
 				CBD70E53164E2F000039FA33 /* CalculatorBrain.m */,
 				CBD70E52164E2F000039FA33 /* CalculatorBrain.h */,
+				CBD70E55164E2FF10039FA33 /* SubCalculator.h */,
+				CBD70E56164E2FF10039FA33 /* SubCalculator.m */,
 				CBD70E3E164E2EB40039FA33 /* CalculatorAppDelegate.h */,
 				CBD70E3F164E2EB40039FA33 /* CalculatorAppDelegate.m */,
 				CBD70E47164E2EB40039FA33 /* MainStoryboard.storyboard */,
@@ -183,6 +188,7 @@
 				CBD70E40164E2EB40039FA33 /* CalculatorAppDelegate.m in Sources */,
 				CBD70E4C164E2EB40039FA33 /* CalculatorViewController.m in Sources */,
 				CBD70E54164E2F000039FA33 /* CalculatorBrain.m in Sources */,
+				CBD70E57164E2FF10039FA33 /* SubCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
