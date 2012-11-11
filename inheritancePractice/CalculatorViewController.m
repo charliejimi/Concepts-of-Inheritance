@@ -25,9 +25,14 @@
     [aCalculator pushOperand:1];
     [aCalculator pushOperand:2];
     [aCalculator performOperation:@"+"];
+///////////// Polymorphism ///////////////////////////
     
+    CalculatorBrain *aBrain=nil;
+    aBrain=[[SubCalculator alloc]init];    
+    id banana;
+    [aBrain runProgram: banana];
     
-    
+
     
 }
 

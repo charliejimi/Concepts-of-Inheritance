@@ -48,7 +48,7 @@
     }
     
     NSLog(@"%p",self);// 這個self指的是SubCalculator這個class的實體的指標
-    //return [self runProgram:self.program];
+    return [self runProgram:self.program];
         
     NSLog(@"%p",[self class]);// 這個[self class]所指向的位址是SubCalculator這個class的實體的類別(就是SubCalculator 這個類別)
     //return [[self class] runProgram:self.program];
@@ -58,7 +58,7 @@
     
     //return [CalculatorBrain runProgram:self.program];
     
-    return [[super class] runProgram:self.program];
+    //return [[super class] runProgram:self.program];
     
 
 }
